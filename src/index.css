@@ -190,7 +190,8 @@ ol {
   padding: 1rem;
 }
 
-#game-over {
+
+  #game-over {
   position: absolute;
   top: 0;
   left: 0;
@@ -347,5 +348,19 @@ ol {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #game-board button {
+    width: 4rem;
+    height: 4rem;
+
+  }
+  #players li{
+    display: block;
+  }
+  .player-name{
+    width: auto;
   }
 }
