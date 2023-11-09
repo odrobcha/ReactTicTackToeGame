@@ -357,10 +357,16 @@ ol {
     height: 4rem;
 
   }
+  #game-board button{
+    font-size: 2rem;
+  }
   #players li{
     display: block;
   }
   .player-name{
     width: auto;
+  }
+  #game-over h2{
+    font-size: 2rem;
   }
 }
